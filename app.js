@@ -22,7 +22,7 @@ console.log(amIBig);
 console.log(amISmall);
 console.log(something);
 
-// Array
+// Array(배열)
 const mon = "mon";
 const tue = "tue";
 const wed = "wed";
@@ -39,3 +39,17 @@ console.log(daysOfWeek[4]);
 // Add one more day to the Array
 daysOfWeek.push("sun");
 console.log(daysOfWeek);
+
+// Objects(구조체)
+const player = {
+    name: "giwoo",
+    points: 1212,
+    hansome: false,
+    fat: true,
+};
+console.log(player);
+console.log(player.name);
+player.name = "jiwoo";  // object가 const 더라도 object의 속성은 변경 가능
+console.log(player.name);
+player.lastName = "potato";  // 새로운 속성 추가
+console.log(player);
