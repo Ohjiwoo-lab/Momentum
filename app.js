@@ -1,3 +1,4 @@
+// Variable
 const a = 5;   // 값을 변경할 수 없는 상수
 const b = 2;
 let myName = "ohjiwoo";  // 값을 변경할 수 있는 변수
@@ -10,3 +11,13 @@ console.log("hi, my name is " + myName);
 
 myName = "nicolas"
 console.log("your name is " + myName);
+
+// Boolean
+const amIFat = true;
+const amIBig = false;
+const amISmall = null;  // defined 되었지만 아무 의미도 없음
+let something;   // undefined
+console.log(amIFat);
+console.log(amIBig);
+console.log(amISmall);
+console.log(something);
