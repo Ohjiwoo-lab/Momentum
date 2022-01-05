@@ -21,3 +21,21 @@ console.log(amIFat);
 console.log(amIBig);
 console.log(amISmall);
 console.log(something);
+
+// Array
+const mon = "mon";
+const tue = "tue";
+const wed = "wed";
+const thu = "thu";
+const fri = "fri";
+const sat = "sat";
+
+const daysOfWeek = [mon, tue, wed, thu, fri, sat];
+const nonsense = [1, 2, "hello", false, null, true, undefined];  // 다양한 데이터 타입이 들어갈 수 있다.
+console.log(daysOfWeek);
+
+// Get Item from Array
+console.log(daysOfWeek[4]);
+// Add one more day to the Array
+daysOfWeek.push("sun");
+console.log(daysOfWeek);
